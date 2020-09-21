@@ -1,11 +1,5 @@
 #include "helpers.h"
 
-ifstream setFile(char const* fileName){
-    ifstream setInput;
-    setInput.open(fileName);
-    return setInput;
-}
-
 void readSet(ifstream &infile, vector<int> &vec) {
     stringstream ss;
     int tempInt;

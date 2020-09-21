@@ -31,7 +31,8 @@ Version: 2020-09-21
 *****/
 
 int main() {
-    ifstream setInput = setFile("setInput.txt");
+    ifstream setInput;
+    setInput.open("setInput.txt");
     vector<int> set1, set2;
 
     if (setInput.is_open()){
