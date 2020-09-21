@@ -2,7 +2,7 @@
 
 ifstream setFile(char const* fileName){
     ifstream setInput;
-    setInput.open("setInput.txt");
+    setInput.open(fileName);
     return setInput;
 }
 
